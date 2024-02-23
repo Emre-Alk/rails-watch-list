@@ -1,6 +1,7 @@
 require 'open-uri'
 require 'json'
 
+Movie.destroy_all
 
 url = "http://tmdb.lewagon.com/movie/now_playing?language=en-US&page=1"
 
